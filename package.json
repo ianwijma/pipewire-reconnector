@@ -1,0 +1,25 @@
+{
+  "name": "pipewire-reconnector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch add-remove",
+    "start": "node --watch main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianwijma/pipewire-reconnector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianwijma/pipewire-reconnector/issues"
+  },
+  "homepage": "https://github.com/ianwijma/pipewire-reconnector#readme",
+  "dependencies": {
+    "node-pipewire": "^1.0.14"
+  }
+}
