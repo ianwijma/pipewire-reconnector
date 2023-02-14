@@ -71,8 +71,12 @@ async function Main() {
          * - Link source to target.
          *
          * Note: We might need to use electron, electron sub packages or electron's source code how they implement it.
-         *
-         * POC:
+         */
+
+        /**
+         * TODO: Multi connection support
+         * There can be multiple sources,
+         * we might want to have a setting to allow multiple sources and targets with the same node and port name
          */
 
         /**
