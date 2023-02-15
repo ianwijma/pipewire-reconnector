@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ianwijma/pipewire-reconnector#readme",
   "dependencies": {
+    "eventemitter3": "^5.0.0",
     "node-pipewire": "^1.0.14"
   }
 }
