@@ -59,7 +59,7 @@ export default class Reconnector {
                 const targetLeftPort = this._getPortId(this.targetNode, 'input_FL');
                 const targetRightPort = this._getPortId(this.targetNode, 'input_FR');
 
-                // TODO: Does not seem to work at all..
+                // Does not seem to work at all.
                 linkPorts(sourceLeftPort, targetLeftPort);
                 linkPorts(sourceRightPort, targetRightPort);
 
